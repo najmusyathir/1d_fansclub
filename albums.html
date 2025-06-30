@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>One Direction | Members</title>
+    <title>One Direction | Albums</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,8 +17,8 @@
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous" />
 
-    <link rel="stylesheet" href="../css/styles.css" />
-    <link rel="stylesheet" href="../css/members.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/albums.css" />
   </head>
   <body>
     <nav
@@ -28,7 +28,7 @@
         class="text-white font-weight-bold"
         href="./index.html"
         style="height: 80px"
-        ><img src="../images/logo.jpg" style="height: 100%"
+        ><img src="./images/logo.jpg" style="height: 100%"
       /></a>
 
       <button
@@ -49,12 +49,12 @@
               >Home <span class="sr-only">(current)</span></a
             >
           </li>
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="members.html"
               >Members <span class="sr-only">(current)</span></a
             >
           </li>
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link" href="albums.html"
               >Albums <span class="sr-only">(current)</span></a
             >
@@ -68,77 +68,88 @@
       </div>
     </nav>
 
+    <div class="background">
+      <img src="./images/album_bg.jpg" />
+    </div>
+
     <div class="main w-full">
-      <h1>Members</h1>
+      <h1>Albums</h1>
 
-      <div class="flex member">
-        <div class="member-c">
-          <img src="../images/louis.jpg" />
-          <div class="m-c-style"></div>
+      <div class="flex album-container">
+        <div class="album">
+          <a href="https://open.spotify.com/album/1gMxiQQSg5zeu4htBosASY" target="_blank">
+            <img src="./images/album_made_in_the_am.png" alt="album_uan" />
+          </a>
+          <div class="album-details">
+            <h2>Made in the A.M.</h2>
+            <h5>13th November 2015</h5>
+            <h4>Top Songs:</h4>
+            <ul>
+              <li>Hey Angel</li>
+              <li>Drag Me Down</li>
+              <li>Perfect</li>
+            </ul>
+          </div>
         </div>
-        <div class="member-c bg-white">
-          <h2>Louis</h2>
-          <code
-            >[The title Made in the A.M.] pretty much sums up the whole process.
-            We spent most of our time writing and recording in the early hours
-            of the morning.
-          </code>
+        <div class="album">
+          <a href="https://open.spotify.com/album/4gCNyS7pidfK3rKWhB3JOY"  target="_blank">
+            <img src="./images/album_four.png" alt="album_uan" />
+          </a>
+          <div class="album-details">
+            <h2>Four</h2>
+            <h5>17th November 2014</h5>
+            <h4>Top Songs:</h4>
+            <ul>
+              <li>Steal My Girl</li>
+              <li>Ready to Run</li>
+              <li>Where do Broken Hearts Go</li>
+            </ul>
+          </div>
         </div>
-      </div>
-
-      <div class="flex member">
-        <div class="member-c bg-white">
-          <h2>HARRY</h2>
-          <code>
-            We wanted to write nice songs that we like, and think that other
-            people will like. We feel like we’ve done that, and we’re extremely
-            proud of the finished album.
-          </code>
+        <div class="album">
+          <a href="https://open.spotify.com/album/7p1fX8aUySrBdx4WSYspOu"  target="_blank">
+            <img src="./images/album_midnight_memories.png" alt="album_uan" />
+          </a>
+          <div class="album-details">
+            <h2>Midnight Memories</h2>
+            <h5>25th November 2013</h5>
+            <h4>Top Songs:</h4>
+            <ul>
+              <li>Best Song Ever</li>
+              <li>Story of My Life</li>
+              <li>Midnight Memories</li>
+            </ul>
+          </div>
         </div>
-        <div class="member-c">
-          <img src="../images/harry.jpg" />
+        <div class="album">
+          <a href="https://open.spotify.com/album/2sWX3HYnZjPZ9MrH6MFsBt"  target="_blank">
+            <img src="./images/album_take_me_home.png" alt="album_uan" />
+          </a>
+          <div class="album-details">
+            <h2>Take Me Home</h2>
+            <h5>9th November 2012</h5>
+            <h4>Top Songs:</h4>
+            <ul>
+              <li>Live While We're Young</li>
+              <li>Kiss You</li>
+              <li>Little Things</li>
+            </ul>
+          </div>
         </div>
-      </div>
-
-      <div class="flex member">
-        <div class="member-c">
-          <img src="../images/malik.jpg" />
-        </div>
-        <div class="member-c bg-white">
-          <h2>Malik</h2>
-          <code>
-            Our fans are the best in the world. They’re always there for us, and
-            it’s amazing to see them everywhere we go. We just love making music
-            and seeing our fans happy.
-          </code>
-        </div>
-      </div>
-
-      <div class="flex member">
-        <div class="member-c bg-white">
-          <h2>Niall</h2>
-          <code>
-            Five albums in five years, is hectic but thoroughly enjoyable! The
-            process of making an album is a good laugh.
-          </code>
-        </div>
-        <div class="member-c">
-          <img src="../images/niall.jpg" />
-        </div>
-      </div>
-
-      <div class="flex member">
-        <div class="member-c">
-          <img src="../images/liam.jpg" />
-          <div class="m-c-style"></div>
-        </div>
-        <div class="member-c bg-white">
-          <h2>Liam</h2>
-          <code>
-            In the past, me and Louis had written a lot. At this stage, everyone
-            joined in which was really cool as we all brought our own
-            influences.
-          </code>
+        <div class="album">
+          <a href="https://open.spotify.com/album/6cunQQ7YZisYOoiFu2ywIq"  target="_blank">
+            <img src="./images/album_up_all_night.jpg" alt="album_uan" />
+          </a>
+          <div class="album-details">
+            <h2>Up All Night</h2>
+            <h5>18th November 2011</h5>
+            <h4>Top Songs:</h4>
+            <ul>
+              <li>What Makes You Beautiful</li>
+              <li>Gotta Be You</li>
+              <li>One Thing</li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
